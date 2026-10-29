@@ -1,2 +1,67 @@
-# sql_data_analysis_practice
+# SQL Data Analysis Practice
+
+## About the Project
+This project contains SQL queries written to practice data analysis using a table named `train_data`.
+
+The exercises focus on analyzing sales, customers, products, shipping methods, and regional performance.
+
+## Dataset
+The `train_data` table includes the following information:
+- Order and shipping dates
+- Customer details and segments
+- Product categories and sub-categories
+- City, state, and region
+- Sales amounts
+
+## SQL Concepts Covered
+- SELECT and DISTINCT
+- WHERE and ORDER BY
+- Aggregate functions: COUNT, SUM, AVG
+- GROUP BY and HAVING
+- Subqueries
+- Date and time functions
+- Common Table Expressions (CTEs)
+- Window functions: ROW_NUMBER, DENSE_RANK, SUM OVER
+- Running totals and ranking
+- Sales analysis by customer, product, and region
+
+## Questions Solved
+This project includes 20 SQL exercises, such as:
+1. Finding unique product categories
+2. Calculating total sales by category
+3. Identifying top-selling sub-categories
+4. Finding customers with total sales above $1,000
+5. Counting rows by shipping mode
+6. Calculating average sales by customer segment
+7. Finding states with total sales above $2,000
+8. Identifying cities with at least three unique customers
+9. Filtering Technology products in the West region
+10. Comparing individual sales with average sales
+11. Finding frequent customers
+12. Summarizing sales by region
+13. Analyzing sales by segment and category
+14. Finding orders containing multiple products
+15. Calculating shipping duration
+16. Analyzing monthly sales
+17. Finding the highest-sales row per category
+18. Ranking customers within segments
+19. Finding customers who ordered on multiple dates
+20. Calculating a running total of sales
+
+## Tools Used
+- SQL
+- PostgreSQL-compatible syntax
+
+## Project Structure
+- `train_data.sql` — Table definition and SQL queries for the practice exercises.
+
+## Learning Objectives
+- Improve SQL problem-solving skills
+- Practice business-oriented data analysis
+- Understand aggregations, subqueries, and window functions
+- Build a foundation for data analyst projects
+
+## Author
+Created as part of my SQL learning journey.
+
 SQL practice exercises for data analysis
